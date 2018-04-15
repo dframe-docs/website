@@ -12,7 +12,7 @@ Let's start, then!
 
   Requirements
 
-   - PHP =< 5.6
+   - PHP =< 7.0
    - Rewrite Module (nginix/apache2)
    - Composer
 
