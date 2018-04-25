@@ -5,7 +5,7 @@ Basic File Structure
  .. div:: col-sm-6
   **Bootstrap.php** - Contains global available variables. It's a basic class that's available in the whole proejct and is loaded at the start. Access also through variable $this->baseClass. In the example project, it contains loading of sessions, tokens, and database loading.
 
-  **Config** - the folder contains configuration files in form
+  **Config** - the folder contains configuration files in form.
 
   .. code-block:: php
    return array(
@@ -25,7 +25,7 @@ Basic File Structure
   **View** - This folder is responsible for the access layer not available directly from the adress.
 
   - **index.php** can be midified in any way, and methods can be added that will be available in the template - for example, an authorization class. By using |auth()|, you can easily, for example, define the showed content. In the template, the |isLogin()| method is shown by the example of the used engine.
-  - **config.php** general configuration that's available for debug, name and version of the application, as well as the adress under which it functions both for dev and the production
+  - **config.php** general configuration that's available for debug, name and version of the application, as well as the adress under which it functions both for dev and the production.
  .. div:: col-sm-6
   .. code-block:: bash
    |   composer.json
