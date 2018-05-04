@@ -39,6 +39,7 @@
    location ~ .php$ {
        try_files $uri = 404;
        fastcgi_pass 127.0.0.1:9000;
+       #fastcgi_pass unix:/run/php/php7.1-fpm.sock;
        fastcgi_index web/index.php;
        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
        include fastcgi_params;
