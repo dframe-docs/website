@@ -21,14 +21,22 @@
   .. code-block:: apache
    RewriteEngine On
    
+   #Deny access for hidden folders and files
+   RewriteRule (^|/)\.([^/]+)(/|$) - [L,F]
+   RewriteRule (^|/)([^/]+)~(/|$) - [L,F]
+   
+   #Set root folder to web directory
    RewriteCond %{REQUEST_FILENAME} !-d
    RewriteCond %{REQUEST_FILENAME} !-f
    RewriteRule ^(.*)$ web/$1
    
+   #Redirect all queries to index file
    RewriteCond %{REQUEST_FILENAME} !-f
    RewriteRule ^(.*)$ web/index.php [QSA,L]
   next
   .. code-block:: nginx
+  
+   #Set root folder to web directory
    location / {
        root   /home/[project_path]/htdocs/web;
        index  index.html index.php index.htm;
@@ -36,6 +44,8 @@
            rewrite ^/(.*)$ /index.php?q=$1 last;
        }
    }
+   
+   #Redirect all queries to index file
    location ~ .php$ {
        try_files $uri = 404;
        fastcgi_pass 127.0.0.1:9000;
@@ -44,7 +54,3 @@
        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
        include fastcgi_params;
    }
-
-
-
-
