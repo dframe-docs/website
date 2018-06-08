@@ -17,9 +17,9 @@ Let's start, then!
   - FileStorage handling,
   - Easy mail buffering handling.
   
-  |Main principle of this framework is quick creation applications.
-  |This framework is being developed by a group of programists and GITHUB community.
-  |Dframe is compatible with php 7.x.
+  Main principle of this framework is quick creation applications.
+  This framework is being developed by a group of programists and GITHUB community.
+  Dframe is compatible with php 7.x.
   
  .. div:: col-sm-6
   |img/start.jpg|
