@@ -6,22 +6,10 @@ Let's start, then!
 
 .. div:: row
  .. div:: col-sm-6
-  ==========
-  Instalation
-  ==========
 
-  Requirements
-
-   - PHP =< 7.0
-   - Rewrite Module (nginix/apache2)
-   - Composer
-
-   Launch the command through the console:
-
-  .. code-block:: bash
-   $ composer create-project dframe/dframe-demo yourAppName
-
-  It will initialize the download process for the latest version of the code available on github.com
+  Dframe is a PHP Framework which at the core was developed having small websites in mind. Although with time it grew big enough to support even complex projects. This framework is being developed by a group of programists and GITHUB community. It also has many usefull modules such as DB query handling, CSRF tokens or email handling libs.
+  Main principle of this framework is quick creation applications.
+  Dframe is compatible with php 7.x.
 
  .. div:: col-sm-6
   |img/start.jpg|
