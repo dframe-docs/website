@@ -10,7 +10,7 @@ Let's start, then!
   Dframe
   ======
   
-  *Dframe* is a PHP Framework which at the core was developed having small websites in mind. Although with time it grew big enough to support even complex projects. This framework is being developed by a group of programists and GITHUB community. It also has many usefull modules such as:
+  **Dframe** is a PHP Framework which at the core was developed having small websites in mind. Although with time it grew big enough to support even complex projects. This framework is being developed by a group of programists and GITHUB community. It also has many usefull modules such as:
   
   - Database plain query handling,
   - CSRF tokens,
