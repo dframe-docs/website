@@ -1,5 +1,5 @@
 .. center::
-Let's start, then!
+Let's get started!
 
 
 
