@@ -1,7 +1,12 @@
+.. title:: Dframe Framework - Smart and Fast PHP framework
+
+.. meta::
+    :description: Dframe is a PHP Framework which at the core was developed having small websites in mind. 
+    :keywords: Dframe, framework, smarty, php, mvc, php7, project, dframe documentation
+    
+    
 .. center::
 Let's get started!
-
-
 
 
 .. div:: row
