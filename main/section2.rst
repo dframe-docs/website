@@ -8,10 +8,10 @@ Basic File Structure
   **Config** - the folder contains configuration files in form.
 
   .. code-block:: php
-   return array(
+   return [
        'key' -> 'Value',
        'anotherKey' => 'Another Value'
-   );
+   ];
   In our case, there's also **router.php**, since the example application uses Dframe\Router and **view** folder with the **smarty.php** file, since we used the **S.M.A.R.T.Y** engine, but you can use any system to render html, ex: **Twig, Mustache**, or pure php
 
   **Controller** - the key file here is **Controller.php** It connects the Router and the earlier mentioned |baseClass|
