@@ -21,6 +21,7 @@ Let's get started!
   - CSRF tokens,
   - FileStorage handling,
   - Easy mail buffering handling.
+  - MVC & HMVC
   
   Main principle of this framework is quick creation applications.
   It is being developed by a group of programists and GITHUB community.
