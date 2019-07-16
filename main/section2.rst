@@ -14,7 +14,7 @@ Basic File Structure
    ];
   In our case, there's also **router.php**, since the example application uses Dframe\Router and **view** folder with the **smarty.php** file, since we used the **S.M.A.R.T.Y** engine, but you can use any system to render html, ex: **Twig, Mustache**, or pure php
 
-  **Controller** - the key file here is **Controller.php** It connects the Router and the earlier mentioned |baseClass|
+  **Controller** - the key file here is **Controller.php** It connects the `Router <https://dframeframework.com/en/docs/dframe/master/routing/overview>`_ and the earlier mentioned |baseClass|
 
   Attention!
 
