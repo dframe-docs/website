@@ -5,7 +5,7 @@ Basic File Structure
  .. div:: col-sm-6
   **Bootstrap.php** - Contains global available variables. It's a basic class that's available in the whole proejct and is loaded at the start. Access also through variable $this->baseClass. In the example project, it contains loading of sessions, tokens, and database loading.
 
-  **Config** - the folder contains configuration files in form.
+  ** `Config <https://dframeframework.com/en/docs/dframe/master/config/overview>`_** - the folder contains configuration files in form.
 
   .. code-block:: php
    return [
