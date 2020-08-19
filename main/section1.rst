@@ -17,7 +17,7 @@ Let's get started!
   
   **Dframe** is a PHP framework to build web applications, APIs and microservices. It also has many useful components such as:
   
-  - `Database <https://dframeframework.com/en/docs/database/master/query>`_ plain query handling,
+  - `PDO database <https://dframeframework.com/en/docs/database/master/query>`_ plain query handling,
   - `CSRF tokens <https://dframeframework.com/en/docs/dframe/master/token/overview>`_,
   - `FileStorage <https://dframeframework.com/en/docs/fileStorage/master/configuration>`_ handling,
   - Easy `email buffering <https://dframeframework.com/en/docs/myMail/master/configuration>`_ handling,
